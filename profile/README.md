@@ -29,4 +29,5 @@ this is a project, aimed to get me rich and married incha allah, what it does is
 -production: main
 -staging: staging
 -dev: dev
+approach: code in a seperate branch - merge to dev - test locally - merge to staging - push to origin/staging (frontend and backend) - test staging - PR to main in frontend and backend - check the changes - accept PR - and that's it
 
