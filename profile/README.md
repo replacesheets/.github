@@ -15,7 +15,7 @@ intro:
 this is a project, aimed to get me rich and married incha allah, what it does is help ecommerce store owners in many ways starting with order confirmation and saisie, trying to automate them to get faster, cheaper and better confirmation and delivery rates.
 
 ---------------
-deployment:
+## deployment:
 -production: frontend: https://cod-manager.com/
              backend : https://api.cod-manager.com/
              database: mongodb atlas /production
@@ -25,7 +25,7 @@ deployment:
 -dev:        database: mongodb /dev
 
 --------------
-git branches:
+## git branches:
 -production: main
 -staging: staging
 -dev: dev
