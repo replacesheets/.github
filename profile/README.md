@@ -30,4 +30,6 @@ this is a project, aimed to get me rich and married incha allah, what it does is
 -staging: staging
 -dev: dev
 approach: code in a seperate branch - merge to dev - test locally - merge to staging - push to origin/staging (frontend and backend) - test staging - PR to main in frontend and backend - check the changes - accept PR - and that's it
-
+--------------
+## generating encryption keys:
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
