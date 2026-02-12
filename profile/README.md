@@ -24,6 +24,16 @@ this is a project, aimed to get me rich and married incha allah, what it does is
              database: mongodb atlas /staging
 -dev:        database: mongodb /dev
 
+## deploying a new branch in octenium:
+-create a new subdomain
+-ssh into the subdomain folder
+-git init
+-git remote add origin <ssh_url>
+-git pull origin <remote_branch_name>
+-add .env
+-create the node app
+-run npm i
+-start the app
 --------------
 ## git branches:
 -production: main
